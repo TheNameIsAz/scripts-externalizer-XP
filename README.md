@@ -57,7 +57,7 @@ It's quite simple:
 * Create any "**mysuperscript.rb**" you want into the folder "**Scripts**" and add their names into the **_list.rb**
 
 For example:
-![screenshot](https://imgur.com/hDU49AC)
+![screenshot](https://i.imgur.com/hDU49AC.png)
 
 ![screenshot](http://biloucorp.com/BCW/Joke/sample1.png)
 
@@ -123,29 +123,29 @@ Here come the best!
 
 You can externalize ALL scripts including the default scripts by using the **scripts-externalizer** instead of the **scripts-loader**!
 
-It will create the "**Scripts**" folder, and make automatically the sub-folders respecting the categories defined by empty scripts like "**▼ Scenes**"
+It will create the "**Scripts**" folder, and make automatically the sub-folders respecting the categories defined by empty scripts like "**#> Scenes**"
 
 Add "**scripts-externalizer**" into your project:
 
-![screenshot](https://imgur.com/NesymuT)
+![screenshot](https://i.imgur.com/NesymuT.png)
 
 Then launch the game:
 
-![screenshot](https://imgur.com/PPL65Sa)
+![screenshot](https://i.imgur.com/PPL65Sa.png)
 
 `battle_end_me.play`
 
-![screenshot](https://imgur.com/B1thkr2)
+![screenshot](https://i.imgur.com/B1thkr2.png)
 
 Close and open the project...
 
 NOW THE SCRIPT EDITOR IS KILLED!!!
 
-![screenshot](https://imgur.com/gVgOK67)
+![screenshot](https://i.imgur.com/gVgOK67.png)
 
 Don't worry, you will retrieve all the scripts in your favorite IDE :) :
 
-![screenshot](https://imgur.com/HfwSO7C)
+![screenshot](https://i.imgur.com/HfwSO7C.png)
 
 ## Security
 
@@ -160,11 +160,11 @@ You can use the **scripts-compiler** to compile the content of your "**Scripts**
 
 Just add the "**scripts-compiler**" in your scripts (replace the "**scripts-loader**" you used):
 
-![screenshot](https://imgur.com/XQSSMQK)
+![screenshot](https://i.imgur.com/XQSSMQK.png)
 
 Launch the game, then close/open the project, and VOILA:
 
-![screenshot](https://imgur.com/Mf36WI5)
+![screenshot](https://i.imgur.com/Mf36WI5.png)
 
 You can see the sub-folder is represented by the character "~>" in front of the name. The "**scripts-externalizer**" understand those characters and creates the sub-folders corresponding!
 
