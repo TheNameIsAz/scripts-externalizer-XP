@@ -1,0 +1,1 @@
+Kernel.send("load", Dir.pwd + '/Scripts/scripts-loader.rb')
