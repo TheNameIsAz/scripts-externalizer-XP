@@ -5,6 +5,8 @@
   # By Joke @biloumaster <joke@biloucorp.com>
   # GitHub: https://github.com/RMEx/scripts-externalizer
   #------------------------------------------------------------------------------
+  # Adapted to RMXP by Az' (very few modifications to match Ruby 1.8 & RMXP)
+  #------------------------------------------------------------------------------
   # Loads all scripts in the Scripts folder
   #
   # To add a script: create a newscript.rb in the folder, and add his name
