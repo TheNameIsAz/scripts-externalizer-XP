@@ -1,20 +1,19 @@
 # scripts-externalizer-XP
-Adaptation attempt of the VX Ace scripts-externalizer originally made by [Joke](https://github.com/RMEx/buildozer/tree/master).
+
+Adaptation attempt of the VX Ace scripts-externalizer originally made by [Joke](https://github.com/RMEx/buildozer/tree/master) and [![RMEx](http://rmex.github.io/images/rmex-shortcut.png)](http://rmex.github.io).
+
+[Link to the **RMEx** discord](https://discord.gg/yRUZcdQ)
 
 ---
 
-[Join us on Discord !](https://discord.gg/yRUZcdQ)
-
-# [![RMEx](http://rmex.github.io/images/rmex-shortcut.png)](http://rmex.github.io) scripts-externalizer
-> Externalize all scripts from Scripts.rvdata2 (script for RMVXAce)
+> Externalize all scripts from Scripts.rxdata (script adapted for RMXP)
 >
 > **scripts-externalizer**, **scripts-loader** and **scripts-compiler** allow you to use your favorite IDE instead of the RPG Maker script editor!
 
 ***
 ## About using the default script editor
 
-
-* The scripts in RMVXAce are **compiled** into **Scripts.rvdata2**, you are obliged to open the **script editor** to change things, or when you use your favorite IDE, you are obliged to copy/paste your work into the script editor.
+* The scripts in RMXP are **compiled** into **Scripts.rxdata**, you are obliged to open the **script editor** to change things, or when you use your favorite IDE, you are obliged to copy/paste your work into the script editor.
 * It's a pain in the ass to open/close the script editor each time you want to change a little thing in your script.
 * When you want to see how the default scripts works, and what method to overwrite, you are obliged to open the script editor. It's akward when you are actually using your favorite IDE. (I'm used to copy/paste from the script editor to the IDE when I'm working on scripts)
 * The script editor is limited when you are used to actual IDE, you miss a bunch of shortcut and a more readable interface
@@ -58,7 +57,7 @@ It's quite simple:
 * Create any "**mysuperscript.rb**" you want into the folder "**Scripts**" and add their names into the **_list.rb**
 
 For example:
-![screenshot](http://biloucorp.com/BCW/Joke/sample2.png)
+![screenshot](https://imgur.com/hDU49AC)
 
 ![screenshot](http://biloucorp.com/BCW/Joke/sample1.png)
 
@@ -128,63 +127,57 @@ It will create the "**Scripts**" folder, and make automatically the sub-folders 
 
 Add "**scripts-externalizer**" into your project:
 
-![screenshot](http://biloucorp.com/BCW/Joke/sample3.png)
+![screenshot](https://imgur.com/NesymuT)
 
 Then launch the game:
 
-![screenshot](http://biloucorp.com/BCW/Joke/sample4.png)
+![screenshot](https://imgur.com/PPL65Sa)
 
 `battle_end_me.play`
 
-![screenshot](http://biloucorp.com/BCW/Joke/sample5.png)
+![screenshot](https://imgur.com/B1thkr2)
 
 Close and open the project...
 
 NOW THE SCRIPT EDITOR IS KILLED!!!
 
-![screenshot](http://biloucorp.com/BCW/Joke/sample6.png)
+![screenshot](https://imgur.com/gVgOK67)
 
 Don't worry, you will retrieve all the scripts in your favorite IDE :) :
 
-![screenshot](http://biloucorp.com/BCW/Joke/sample7.png)
+![screenshot](https://imgur.com/HfwSO7C)
 
 ## Security
 
-* A backup of the Scripts.rvdata2 is created
+* A backup of the Scripts.rxdata is created
 * The scripts with no name will be also exported and named "untitled", "untitled (2)" and so on
 * The scripts with the same name will be renamed "script (2)", script (3)" and so on
 
 ***
 # Compiling the external scripts into the Scripts.rvdata2
 
-You can use the **scripts-compiler** to compile the content of your "**Scripts**" folder into "**Scripts.rvdata2**"
+You can use the **scripts-compiler** to compile the content of your "**Scripts**" folder into "**Scripts.rxdata**"
 
 Just add the "**scripts-compiler**" in your scripts (replace the "**scripts-loader**" you used):
 
-![screenshot](http://biloucorp.com/BCW/Joke/sample8.png)
+![screenshot](https://imgur.com/XQSSMQK)
 
 Launch the game, then close/open the project, and VOILA:
 
-![screenshot](http://biloucorp.com/BCW/Joke/sample10.png)
+![screenshot](https://imgur.com/Mf36WI5)
 
-You can see the sub-folder is represented by the character "■" in front of the name. The "**scripts-externalizer**" understand those characters and creates the sub-folders corresponding!
+You can see the sub-folder is represented by the character "~>" in front of the name. The "**scripts-externalizer**" understand those characters and creates the sub-folders corresponding!
 
 The **scripts-compiler** works even if you externalized ALL scripts. :)
 
 ## Security
 
-* A backup of the Scripts.rvdata2 is created
+* A backup of the Scripts.rxdata is created
 * The "**Scripts**" folder is now useless, but not deleted, you have to delete it by yourself if everything is fine
 
 ## Compile your scripts before releasing your game!
 
 You will notice the game will start after few seconds (2~3) if your scripts are externalized... It's not a problem since you save A LOT of time by editing external scripts instead of internal scripts. But when you don't work on your scripts or when you want to release your game, I recommand you to compile your scripts to avoid those few little seconds lost.
 
-***
-# Sample_project_1 and Sample_project_2
-
-Those projects are the projects I used as example, you can see how the scripts are managed in **Sample_project_1** with the method of **scripts-externalize** all scripts.
-
-You can see how the scripts are managed in **Sample_project_2** with the method of **scripts-loader** that loads just the scripts you want to externalize.
 
 That's all, folks! <3
